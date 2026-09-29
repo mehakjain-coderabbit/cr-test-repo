@@ -1,0 +1,8 @@
+{
+  "name": "hutch-ticket-automation-training-fixture",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node training-services.mjs"
+  }
+}

@@ -1,7 +1,7 @@
 import { createServer } from "node:http";
 import { exec } from "node:child_process";
 
-// Deliberately vulnerable, unexecuted source fixture for internal Hutch scans.
+// Deliberately vulnerable training route, started by training-services.mjs.
 createServer((request, response) => {
   const url = new URL(request.url, "http://localhost");
   if (url.pathname !== "/subtitles/export") {
